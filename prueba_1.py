@@ -1,6 +1,6 @@
 #Dar la bienvenida al usuario
 print("Bienvenidos a la compañia telefónica ClaroStar")
-#Socilitar al cliente ingresar 
+#Socilitar al cliente ingresar los datos
 dia= int (input("Por favor ingrese los minutos hablados durante el día: "))
 noche= int (input("Por favor ingrese los minutos hablados durante la noche: "))
 
@@ -25,7 +25,7 @@ else:
     exceso_noche = noche - 80
     costo_noche = (80 * 7) + (exceso_noche * 13)
 
-#Cálculo del total
+#Cálculo del monto total
 total = costo_dia + costo_noche
 
 #Muestrar por pantalla los resultados
